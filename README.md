@@ -12,8 +12,20 @@ It extracts structured information, generates summaries, and provides a **match 
 
 ### Installation
 
-Clone the repository and requirements:
+Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/werefin/Resume-Analyzer-Bot.git
 cd Resume-Analyzer-Bot
 pip install -r requirements.txt
+```
+
+Run the app:
+```bash
+streamlit run app.py
+```
+
+Open `http://localhost:8501` in your browser.
+
+The `test` folder contains example files to quickly test the bot:
+- `job_description.txt`: example job description.
+- `cv.txt`: example candidate resume.
