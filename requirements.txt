@@ -1,0 +1,7 @@
+langchain==0.0.17
+openai==0.28
+streamlit
+pypdf2
+faiss-cpu
+pymupdf
+tiktoken
