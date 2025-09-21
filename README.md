@@ -10,7 +10,11 @@ It extracts structured information, generates summaries, and provides a **match 
 - Compute a **matching score** with scoring criteria.
 - Download results as `.txt`.
 
-### Installation
+The `test` folder contains example files to quickly test the bot:
+- `cv.txt`: example candidate resume.
+- `job_description.txt`: example job description.
+
+### Installation & running the app
 
 Clone the repository and install dependencies:
 ```bash
@@ -24,8 +28,4 @@ Run the app:
 streamlit run app.py
 ```
 
-Open `http://localhost:8501` in your browser.
-
-The `test` folder contains example files to quickly test the bot:
-- `job_description.txt`: example job description.
-- `cv.txt`: example candidate resume.
+Then, open `http://localhost:8501` in your browser.
