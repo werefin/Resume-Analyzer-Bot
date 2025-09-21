@@ -1,7 +1,6 @@
 ## AI recruitment analysis
 
-This Streamlit app uses **OpenAI GPT-4o** and **LangChain** to analyze candidate resumes against job descriptions.  
-It extracts structured information, generates summaries, and provides a **match score (0–100)** for recruitment suitability.
+This Streamlit app uses **OpenAI GPT-4o** and **LangChain** to analyze candidate resumes against job descriptions. It extracts structured information, generates summaries, and provides a **match score (0–100)** for recruitment suitability.
 
 ### Features
 - Upload or auto-load resumes & job descriptions (`.txt` or `.pdf`).
